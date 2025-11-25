@@ -111,96 +111,10 @@ from customer
 where previous_purchases > 5
 group by subscription_status;
 
--- what i the revenue contribution of each age category
+-- what is the revenue contribution of each age category
 
 select
 	age_group,
 	sum(purchase_amount) total_revenue
 from customer
 group by age_group order by total_revenue desc;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
